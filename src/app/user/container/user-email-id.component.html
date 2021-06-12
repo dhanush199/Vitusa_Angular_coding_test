@@ -1,0 +1,13 @@
+<div class="title"><h1>{{title}}</h1></div>
+<div *ngIf="loading" class="spinner-border text-primary"></div>
+<div class="user">
+  <input [(ngModel)]="userId" class="form-input" name="userId" type="number" [value]="userId">
+  <button type="button" (click)="onSubmit()">Submit</button>
+</div>
+<div *ngIf="userEmail" class="result">
+  <h2>User Email: {{userEmail}}</h2>
+</div>
+<div *ngIf="errorMsg" class="alert result">
+  <span class="closebtn"></span>
+  <h2>{{errorMsg}}</h2>
+</div>

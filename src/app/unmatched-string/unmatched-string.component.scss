@@ -1,0 +1,26 @@
+.center{
+  position: fixed;
+  top: 50%;
+  left: 30%;
+  font-size: 20px;
+  padding: 5px;
+  z-index: 100;
+}
+
+.title{
+  position: fixed;
+  left: 30%;
+  font-size: 20px;
+  padding: 5px;
+  z-index: 100;
+  background-color: bisque;
+}
+
+.result{
+  position: fixed;
+  top: 30%;
+  left: 30%;
+  font-size: 20px;
+  padding: 5px;
+  z-index: 100;
+}
