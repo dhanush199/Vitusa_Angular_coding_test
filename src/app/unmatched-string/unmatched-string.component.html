@@ -3,7 +3,7 @@
 <div class="center">
   Input 1: <input class="form-input" [(ngModel)]="input1" type="string" [value]="input1" placeholder="input 1">
   Input 2:<input class="form-input" [(ngModel)]="input2" type="string" [value]="input2" placeholder="input 2">
-  <button type="button" (click)="onSubmit()">Submit</button>
+  <button type="button" (click)="onSubmit()">Submit</button> 
 </div>
 <div class="result" *ngIf="unmatchedInput1 || unmatchedInput2">
   <h1>Unmatched input 1 :{{unmatchedInput1}}</h1>
@@ -13,3 +13,5 @@
 <div *ngIf="msg" class="result">
   <h1>{{msg}}</h1>
 </div>
+
+<div class="hyperlink"><a routerLink="/consult">get user email id</a></div>
